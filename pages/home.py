@@ -20,22 +20,22 @@ def home():
 
     Try out the **IdleEDA**, **AutoML**, and **LazyCompare** features!
 
-    ## Usage
+    ## Usage :high_brightness:
 
     Your data needs to be in a certain format for the exploratory data analysis and autoML features to work correctly. The minimum requirement for the EDA is that your data file is a CSV. For autoML the requirement is a CSV and your last value should be the target value while the rest of the values are data values.
     The AutoML feature is a regressor, so input the data appropriately.
 
-    ***IdleEDA***
+    ***IdleEDA*** :space_invader:
 
     For the exploratory data analysis part of the app, most CSVs will work. Just input the CSV and see the results!
     *Note that larger datasets can take upwards of 3 minutes
 
-    ***AutoML***
+    ***AutoML*** :memo:
 
     Datasets in CSV format with numerical values are perfect, just make sure to have the target value in the last column. Based on the model you choose
     you will be able to change hyperparameters which will change the performance of the model. Testing different model hyperparameters can change the performance of the model greatly.
 
-    ***LazyCompare***
+    ***LazyCompare*** :chart_with_downwards_trend:
 
     Similar to AutoML datasets will need to be in CSV format with numerical values with the target value in the last column. 20+ Machine learning models will be tested on the data given
     and the user will be able to see the results.
