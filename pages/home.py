@@ -5,7 +5,7 @@ from PIL import Image
 
 def home():
 
-    st.title('EasyML')
+    st.title('EasyML :bulb:')
 
     image = Image.open('pages/easymlpic.png')
 
