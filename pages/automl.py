@@ -102,6 +102,12 @@ def automl():
             Y_predicted = rf.predict(df)
             st.write("Predicted values")
             st.info(Y_predicted)
+            
+            st.write('Coefficient of determination ($R^2$):')
+            st.info(r2_score(Y_train, Y_predicted))
+
+            st.write('Error (MSE or MAE):')
+            st.info(mean_squared_error(Y_test, Y_predicted))
         
         else:
 
