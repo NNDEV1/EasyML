@@ -13,7 +13,7 @@ def home():
 
     st.markdown('''
 
-    ## This is the **homepage** of the EasyML App
+    ## This is the **homepage** of the EasyML App :rocket:
 
     Machine learning is the study of computer algorithms that can improve automatically through experience and by the use of data.
     With EasyML I aim to give an introduction to AutoML systems and bto show that machine learning is now easier than ever!
