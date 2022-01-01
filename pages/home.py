@@ -7,7 +7,7 @@ def home():
 
     st.title('EasyML :bulb:')
 
-    image = Image.open('pages/easymlpic.png')
+    image = Image.open('pages/eadf881914364166b46d00ab90b4415f.png')
 
     st.image(image)
 
